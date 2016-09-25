@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>The Lord's Church</title>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <link href="tlc_style.css" rel="stylesheet"/>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+</head>
+<body id="theBody">
+<div class="container-fluid banner">
+    <img src="images/header_left.png" class="hidden-xs col-sm-2">
+    <img src="images/tlc_logo.png" class="col-xs-12 col-sm-5">
+    <img src="images/header_right.png" class="hidden-xs col-sm-5">
+</div>
+<nav class="navbar">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand white-text" href="#">
+                <b><i>Saturday, 20th of August 2016</i></b>
+            </a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href=index.php class="white-text">HOME<span class="sr-only">(current)</span></a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-expanded="false">ABOUT US <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href='history.php'>Our History</a></li>
+                        <li><a href='vision.php'>Our Vision</a></li>
+                        <li><a href='beliefs.php'>Our Beliefs</a></li>
+                        <li><a href='salvation.php'>Salvation</a></li>
+                        <li><a href='whowesupport.php'>Who We Support</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle white-text" data-toggle="dropdown" role="button" aria-expanded="false">MINISTRIES <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href='ministry.php?MinistryID=2'>Children's Ministry</a></li><li><a href='ministry.php?MinistryID=5'>Men's Ministry</a></li><li><a href='ministry.php?MinistryID=4'>Music Ministry</a></li><li><a href='ministry.php?MinistryID=1'>Souled Out Youth</a></li><li><a href='ministry.php?MinistryID=3'>Women's Ministry</a></li>      </ul>
+                </li>
+                <li>
+                    <a href="#" class="white-text" role="button">STAFF</a>
+                </li>
+                <li><a href="messages.php" class="white-text">MESSAGES</a></li>
+                <li><a href="directions.php" class="white-text">DIRECTIONS</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right white-text">
+                <li><a href="admin.php" class="white-text">Login</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container-fluid">
+    <div class='col-sm-3 sidebar'>
+        <div class="panel-group" id="accordion">
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                            Donate Online</a>
+                    </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                        <h4>Tithes, Offerings or One Time Gifts</h4>
+                        <p>Make a secure online contribution using your credit card or debit card using PayPal.</p>
+                        <button class="btn btn-success">Donate</button>
+                        <h4>Mail or Phone-in Tithes, Offerings or One Time Gifts</h4>
+                        <p>To give by mail, send your check made payable to: The Lord's Church</p>
+                        <h4>To Give By Phone</h4>
+                        <p>Simply call 916-364-4380, Monday through Friday, 9:00 a.m. to 4:00 p.m.(PST). Our staff will be happy to assist you with credit card giving.</p>
+                        <p>Thank You for supporting The Lord's Church with your prayers and gifts</p>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                            Church Address</a>
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <p>4427 Mather Blvd.</p>
+                        <p>Sacramento, CA 95655</p>
+                        <p>Phone 916-364-4380</p>
+                        <p>Fax 916-364-4379</p>
+                        <a>tlc.mather@cfaith.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                            Service Times</a>
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <ul class="list-group">Sunday
+                            <li class="list-group-item">Morning Service - 10:00 AM</li>
+                            <li class="list-group-item">Evening Service - 6:00 PM</li>
+                        </ul>
+                        <ul class="list-group">Wednesday
+                            <li class="list-group-item">Evening Service - 7:00 PM</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="panel-heading">
+                    <h4 class="panel-title">
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                            Verse Of the Day</a>
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">
+                        <blockquote>
+                            <p>“I have set the LORD always before me; Because He is at my right hand I shall not be moved.” </p>
+                            <footer>Psalm 16:8<cite title="Source Title">Copyright © 1982 by Thomas Nelson, Inc.
+                            </cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class='col-sm-9 me2'>
+        <div class="jumbotron">
+            <blockquote>
+                <h3>To Reach, Teach, and Establish people in the Grace and Truth of our Lord Jesus Christ,
+                    so that we can be effective witnesses for the purpose of helping others to know and follow Him.</h3></br>
+                <h5>2016 Year of Double Grace, a year of Contentment!</h5>
+            </blockquote>
+        </div>
+        <h3>Upcoming Events</h3>
+        <div>Sun, 21 Aug 2016 at 10:00 AM - Special Guest - Dave Huskey</div>
+        <div>Fri, 30 Sep 2016 at 07:00 PM - Women's Assembly II</div>
+        <div>Sun, 02 Oct 2016 at 10:00 AM - Shekinah Glory</div>
+    </div>
+</div>
+<div class="row">
+    <div id="footer">
+        <div class="text-center">
+            All Rights Reserved &copy; The Lords Church 2015
+        </div>
+    </div>
+</div>
+</body>
+</html>

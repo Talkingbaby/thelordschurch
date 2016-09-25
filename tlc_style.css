@@ -1,0 +1,62 @@
+#theBody{
+    /*light brown color*/
+    background-color: #f2e0c9;
+    margin: 0;
+    padding: 0;
+    font-family: 'Old Standard TT', serif;
+}
+div.sidebar{
+    height: auto;
+}
+div.jumbotron{
+    background-color: transparent;
+}
+div.jumbotron blockquote{
+    border-left: 5px solid maroon;
+}
+.white-text{
+    color: white;
+}
+div.banner{
+    margin: 0;
+    padding: 0;
+}
+div.banner img{
+    height: 15vh;
+    margin: 0;
+    padding: 0;
+
+}
+nav.navbar{
+    background-color: #735a45;
+}
+button.navbar-toggle{
+    background-color: white;
+}
+span.icon-bar{
+    background-color: black;
+}
+div.panel-heading{
+    background-color: #735a45;
+    color: white;
+}
+div.panel{
+    border: none;
+}
+div.panel-body{
+    background-color: #f2e0c9;
+}
+/*accordian blockquote for verse of the day*/
+div blockquote{
+    border-left: 5px solid maroon;
+}
+li.list-group-item{
+    border: 1px solid maroon;
+    background-color: unset;
+}
+/*footer*/
+div#footer{
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px solid maroon;
+}
