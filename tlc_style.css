@@ -30,6 +30,9 @@ div.banner img{
 nav.navbar{
     background-color: #735a45;
 }
+p.navbar-brand{
+    margin: 0;
+}
 button.navbar-toggle{
     background-color: white;
 }
